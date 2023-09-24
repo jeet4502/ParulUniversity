@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parul University-Gujarat</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous"> 
+<link href="https://fonts.googleapis.com/css2?family=Kenia&family=Poppins:wght@700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="logo1.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+
+                <ul>
+                    <div id="outputContainer"></div>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="ranking.html">RANKING</a></li>
+                    <li><a href="#">ADMISSION</a>
+                    <ul>
+                        <li><a href="#">Companies coming</a></li>
+                        <li><a href="companies.html">Studnet Placed</a></li>
+                        <li><a href="#">Fee Structure</a></li>
+                    </ul>
+                    </li>
+                    <li><a href="">FACULTIES</a>
+                    <ul>
+                        <li><a href="#">Engineering</a></li>
+                        <li><a href="#">Medical</a></li>
+                        <li><a href="#">Commerce</a></li>
+                        <li><a href="#">Arts</a></li>
+                        <li><a href="#">Law</a></li>
+                    </ul>
+                    </li>
+                    <li><a href="">LIFE AT PU</a>
+                    <ul>
+                        <li><a href="#">Academics</a></li>
+                        <li><a href="#">Co-curricular Activities</a></li>
+                        <li><a href="#">Sports</a></li>
+                    </ul>
+                    </li>
+                    <li><a href="Rform.html">Enquire Now</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars"onclick="showmenu()"></i>
+        </nav>
+    </section>
+    <div class="naacpic">
+        <img src="naac1.png">
+        <div class="topleft">NAAC A++</div>
+        <div class="topleftnext"> HAI TOH BEST HAI</div>
+    </div>
+    <section class="footer">
+        <h4>Parul University Vadodara,Gujarat</h4>
+        <p>A Quality Student deserves a quality university<br><br>Designed by Jeet desai</br></p>
+        <div class="icons">
+                    <a href = "https://www.facebook.com/"><img src ="facebook.jfif" width="30"></a>
+                    <a href = "https://www.instagram.com/"><img src ="instagram.png"width="30"></a>
+                    <a href = "https://twitter.com/i/flow/login"><img src="twitter.png"width="30"></a>
+        </div>
+    </section>
+    <script>
+        var navLinks = document.getElementById("navlinks");
+        function showmenu(){
+            navLinks.style.right="0";
+        }
+        function hidemenu(){
+            navLinks.style.right="-200px"
+        }
+  
+</script>
+</body>
+</html>

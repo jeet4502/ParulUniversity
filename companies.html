@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Companies</title>
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kenia&family=Poppins:wght@700;800&family=Skranji:wght@700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/160f12c7d4.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Kenia&family=Poppins:wght@700;800&family=Sedgwick+Ave+Display&family=Skranji:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="companies.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Kenia&family=Pacifico&family=Poppins:wght@700;800&family=Sedgwick+Ave+Display&family=Skranji:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kenia&family=Poppins:wght@700;800&family=Skranji:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="https://kit.fontawesome.com/160f12c7d4.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Kenia&family=Poppins:wght@700;800&family=Sedgwick+Ave+Display&family=Skranji:wght@700&display=swap" rel="stylesheet">
+    <nav>
+        <a href="index.html"><img src="logo1.png"></a>
+        <div class="nav-links" id="navLinks">
+            <!-- <i class="fa fa-times" onclick="hidemenu()"></i> -->
+
+            <ul>
+                <div id="outputContainer"></div>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="ranking.html">RANKING</a></li>
+                <li><a href="">ADMISSION</a>
+                <ul>
+                    <li><a href="#">Companies coming</a></li>
+                    <li><a href="#">Studnet Placed</a></li>
+                    <li><a href="#">Fee Structure</a></li>
+                </ul>
+                </li>
+                <li><a href="">FACULTIES</a>
+                <ul>
+                    <li><a href="#">Engineering</a></li>
+                    <li><a href="#">Medical</a></li>
+                    <li><a href="#">Commerce</a></li>
+                    <li><a href="#">Arts</a></li>
+                    <li><a href="#">Law</a></li>
+                </ul>
+                </li>
+                <li><a href="">LIFE AT PU</a>
+                <ul>
+                    <li><a href="#">Academics</a></li>
+                    <li><a href="#">Co-curricular Activities</a></li>
+                    <li><a href="#">Sports</a></li>
+                </ul>
+                </li>
+                <li><a href="Rform.html">Enquire Now</a></li>
+            </ul>
+        </div>
+        <!-- <i class="fa fa-bars"onclick="showmenu()"></i> -->
+    </nav>
+<body>
+    <div class="Companybg">
+    <div class="title">
+    <h3>After Completeing graduation from pu whats next? </h3>
+    <h2>Your Impeccable Placement</h2>
+    <h1>Opportunities with Milestone Packages</h1></div>
+    <table>
+        <tr>
+            <td>We have<br><b>2000+ Recruiters</b><br>Ready to provide you with the Best<br>Job offers with Upto<br><b>30Lakh Highest<br> 
+                Package</b><br>and average Packages of<br><b> 8 LPA</b></td>
+            <td class="transparent"><b>Awarded as the<br>Best University<br>in Placements<br>by ASSOCHAM</b></td>
+            <td class="right"><b>How We help get hired by the best?</b>
+                <br>Career Development and Training
+                <br>Industry Collaboration For UpSkilling
+                <br>Campus Drives and Interview Training
+            </td>
+        </tr>
+    </table>
+    </div>
+    <div class="gallery-scroll">
+        <figure class="gallery-item">
+          <img class="gallery-img" src="Gujana Pandaya.jpg" alt="symbol image" title="symbol image">
+          <figcaption>Gujan Pandaya<br>Data Engineer At<br> facebook</figcaption>
+        </figure>
+        <!-- ... 20 Images at all ... -->
+        <figure class="gallery-item">
+          <img class="gallery-img" src="Mansi.jpeg" alt="symbol image" title="symbol image">
+          <figcaption>Mansi Dalwani<br>Data Strategist At<br> Google</figcaption>
+        </figure>
+        <figure class="gallery-item">
+            <img class="gallery-img" src="milin.jpeg" alt="symbol image" title="symbol image">
+            <figcaption>Milind Purswami <br>Security Engineer At<br> Snapchat</figcaption>
+          </figure>
+          <figure class="gallery-item">
+            <img class="gallery-img" src="amazon.png" alt="symbol image" title="symbol image">
+            <figcaption>Jay Vadiya<br>Cloud Technical Manager At<br> Amazon</figcaption>
+          </figure>
+      </div><!-- end gallery-scroll -->
+    <section class="footer">
+        <h4>Parul University Vadodara,Gujarat</h4>
+        <p style="text-align: center;">A Quality Student deserves a quality university<br><br>Designed by Jeet desai</br></p>
+        <div class="icons">
+                    <a href = "https://www.facebook.com/"><i class="fa-brands fa-facebook fa-xl"></i></a>
+                    <a href = "https://www.instagram.com/"><i class="fa-brands fa-instagram fa-xl"></i></a>
+                    <a href = "https://twitter.com/i/flow/login"><i class="fa-brands fa-x-twitter fa-xl"></i></a>
+        </div>
+    </section>
+    <script>
+        var navLinks = document.getElementById("navlinks");
+        function showmenu(){
+            navLinks.style.right="0";
+        }
+        function hidemenu(){
+            navLinks.style.right="-200px"
+        }
+    
+    </script>
+</body>
+</html>
